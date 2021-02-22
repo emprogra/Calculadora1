@@ -21,7 +21,7 @@ namespace Tarea1._1.Controllers
 
         // GET api/<Calculadora2Controller>/5
         [HttpGet("{x}/{y}/{operacion}")]
-        public int Get(int x,int y,string operacion)
+        public float Get(float x,float y,string operacion)
         {
            
              if (operacion == "suma") 
